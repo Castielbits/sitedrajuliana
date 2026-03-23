@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import PremiumTreatment from "@/components/PremiumTreatment";
 import About from "@/components/About";
-import RootCause from "@/components/RootCause";
 import Testimonials from "@/components/Testimonials";
 import CalmModeToggle from "@/components/CalmModeToggle";
 import WhatsAppButton from "@/components/WhatsAppButton";

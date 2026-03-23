@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { motion } from "framer-motion";
 
 export default function MentePlena() {
   return (
@@ -78,7 +77,7 @@ export default function MentePlena() {
 
           <div className="space-y-4 pt-6">
             <p className="font-serif text-2xl md:text-3xl lg:text-[2rem] leading-snug text-[#1e5258] italic font-medium">
-              "Minha missão é oferecer um atendimento integrado que combine acolhimento e excelência técnica, ajudando cada paciente a encontrar o equilíbrio e a saúde que desejam."
+              &quot;Minha missão é oferecer um atendimento integrado que combine acolhimento e excelência técnica, ajudando cada paciente a encontrar o equilíbrio e a saúde que desejam.&quot;
             </p>
             <p className="text-bark/70 font-sans lg:text-lg">
               Dra. Juliana Torres

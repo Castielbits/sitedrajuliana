@@ -6,11 +6,14 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function CalmModeToggle() {
   const [calmMode, setCalmMode] = useState(false);
 
-  // Persist across sessions
+  // Sync class on mount if localStorage was set
   useEffect(() => {
     const stored = localStorage.getItem("calmMode") === "true";
-    setCalmMode(stored);
-    if (stored) document.body.classList.add("calm-mode");
+    if (stored) {
+      /* eslint-disable-next-line react-hooks/set-state-in-effect */
+      setCalmMode(true);
+      document.body.classList.add("calm-mode");
+    }
   }, []);
 
   const toggle = () => {

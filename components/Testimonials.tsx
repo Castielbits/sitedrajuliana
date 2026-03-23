@@ -1,7 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
-
 export default function Testimonials() {
   const reviews = [
     {
@@ -125,7 +123,7 @@ export default function Testimonials() {
                  </div>
                  
                  <p className="text-sm md:text-[15px] text-bark/90 leading-relaxed font-sans">
-                   "{review.text}"
+                   &quot;{review.text}&quot;
                  </p>
                </div>
             ))}
