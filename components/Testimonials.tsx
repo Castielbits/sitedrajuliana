@@ -5,29 +5,65 @@ import { motion } from "framer-motion";
 export default function Testimonials() {
   const reviews = [
     {
-      name: "Mirela Novais",
-      initial: "M",
-      bgColor: "bg-[#e91e63]",
-      text: "Uma médica muito atenciosa e empática. Recomendo demais!"
+      name: "Junia Costa de Miranda",
+      initial: "J",
+      bgColor: "bg-[#c0392b]",
+      text: "Toda a equipe é especial! Muito profissionais, educadas, atenciosas! Fiz o programa para tratar o bruxismo e foi maravilhoso!!! A clínica é linda, aconchegante e sempre tem um chá delicioso. Super recomendo o tratamento com a Juliana Torres! Estou muuuuuito satisfeita!!!"
     },
     {
-      name: "Hélio Prazeres",
-      initial: "H",
-      bgColor: "bg-[#009688]",
-      text: "Excelente profissional!!!!! Tirou todas as minhas dúvidas e me ajudou muito."
-    },
-    {
-      name: "Rosa Núbia",
-      initial: "R",
-      bgColor: "bg-[#ff9800]",
-      text: "Ótima profissional, atenciosa e dedicada. O consultório também é maravilhoso."
-    },
-    {
-      name: "Ana Costa",
+      name: "Ana Kelly Carvalho Melo",
       initial: "A",
       bgColor: "bg-[#3f51b5]",
-      text: "A abordagem dela te deixa extremamente confortável. Mudou minha vida."
-    }
+      text: "Juliana é excepcional. A conheci depois de passar anos convivendo com dores diárias, principalmente na cabeça, ombros e mandíbula, e recorrendo quase todos os dias ao ibuprofeno. Após iniciar o tratamento com ela, redescobri uma vida sem dores, muito mais leve e equilibrada. Os resultados foram simplesmente incríveis."
+    },
+    {
+      name: "Fernanda Quinan",
+      initial: "F",
+      bgColor: "bg-[#009688]",
+      text: "Dra Juliana e equipe são maravilhosos! São muito competentes, minhas dores de cabeça e do meu filho melhoram demais com as idas à clínica!"
+    },
+    {
+      name: "Iara Morais",
+      initial: "I",
+      bgColor: "bg-[#7b1fa2]",
+      text: "Estou fazendo o protocolo com a Ju e ela é incrível, super atenciosa! Tem me ajudado bastante com as tensões cervicais, bruxismo, zumbido!"
+    },
+    {
+      name: "Jorge Luiz B. Danielian",
+      initial: "J",
+      bgColor: "bg-[#1565c0]",
+      text: "Muito satisfeito, competência, dedicação e profissionalismo fantásticos. Meu bruxismo melhorou 99%, infelizmente não tem cura."
+    },
+    {
+      name: "Isadora Azevedo",
+      initial: "I",
+      bgColor: "bg-[#2e7d32]",
+      text: "Fiz 5 sessões para meu bruxismo e não poderia estar mais satisfeita! O ambiente é muito agradável, toda a equipe muito atenciosa e gentil; isso tudo além do principal que é o tratamento com a Juliana, que é uma profissional muito dedicada."
+    },
+    {
+      name: "Alice Casali",
+      initial: "A",
+      bgColor: "bg-[#e65100]",
+      text: "Conheci a Juliana por indicação da minha otorrinolaringologista. Meu quadro era de zumbido somatossensorial, cervicalgia e dor e rigidez na ATM. O acolhimento que tive foi o primeiro passo para compreender que eu poderia melhorar muito."
+    },
+    {
+      name: "Cláudia Lima",
+      initial: "C",
+      bgColor: "bg-[#00695c]",
+      text: "Preciso expressar a minha imensa gratidão pelo diagnóstico correto, tratamento eficaz e acolhimento humano, para o meu caso de capsulite adesiva. Feliz que me livrei dos remédios e agora posso sorrir e me expressar como mereço."
+    },
+    {
+      name: "Carlos Ribeiro",
+      initial: "C",
+      bgColor: "bg-[#4527a0]",
+      text: "Por 30 anos tive dores de cabeça e me acostumei. Essas dores passaram para a face e a clínica foi fundamental para mudar essa realidade. Uma experiência transformadora."
+    },
+    {
+      name: "Lucas Wilson",
+      initial: "L",
+      bgColor: "bg-[#558b2f]",
+      text: "Cheguei à clínica por intermédio da Dra. Luciana Porto após uma cirurgia e deslocamento de mandíbula. O atendimento foi excepcional e a recuperação muito além do esperado."
+    },
   ];
 
   return (
@@ -76,7 +112,7 @@ export default function Testimonials() {
               ))}
             </div>
             <p className="font-sans text-xs md:text-sm text-bark/80 mb-4">
-              Com base em <strong>28 avaliações</strong>
+              Com base em <strong>+40 avaliações</strong>
             </p>
             {/* Google Logo text style */}
             <div className="flex items-center">
