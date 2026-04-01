@@ -112,7 +112,7 @@ export default function Testimonials() {
               ))}
             </div>
             <p className="font-sans text-xs md:text-sm text-bark/80 mb-4">
-              Com base em <strong>+40 avaliações</strong>
+              Com base em <strong>72 avaliações</strong>
             </p>
             {/* Google Logo text style */}
             <div className="flex items-center">
