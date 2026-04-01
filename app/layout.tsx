@@ -31,13 +31,13 @@ export const metadata: Metadata = {
     siteName: "Clínica Juliana Torres",
     locale: "pt_BR",
     type: "website",
-    images: [{ url: "/banner.png", width: 1200, height: 630, alt: "Clínica Juliana Torres" }],
+    images: [{ url: "https://www.julianatorresatm.com.br/banner.png", width: 1200, height: 630, alt: "Clínica Juliana Torres" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dra. Juliana Torres | Bruxismo e ATM — BH",
     description: "Especialista com mais de 20 anos. Agende sua avaliação.",
-    images: ["/banner.png"],
+    images: ["https://www.julianatorresatm.com.br/banner.png"],
   },
   alternates: {
     canonical: "https://www.julianatorresatm.com.br",
@@ -45,6 +45,7 @@ export const metadata: Metadata = {
 };
 
 import LoadingScreen from "@/components/LoadingScreen";
+import CookieBanner from "@/components/CookieBanner";
 
 export default function RootLayout({
   children,
@@ -56,6 +57,7 @@ export default function RootLayout({
       <body>
         <LoadingScreen />
         <LenisProvider>{children}</LenisProvider>
+        <CookieBanner />
       </body>
     </html>
   );

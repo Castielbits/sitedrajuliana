@@ -21,7 +21,7 @@ export default function Footer() {
             Excelência em fisioterapia, tratamento especializado em DTM, Bruxismo e reabilitação de alta performance. O ritmo natural da sua Transformação.
           </p>
           <div className="flex gap-4">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-2 border border-[var(--color-sand)]/20 rounded-full hover:bg-[var(--color-sand)]/10 hover:border-[var(--color-sand)]/40 transition-all duration-300">
+            <a href="https://www.instagram.com/julianatorres.atm/" target="_blank" rel="noopener noreferrer" className="p-2 border border-[var(--color-sand)]/20 rounded-full hover:bg-[var(--color-sand)]/10 hover:border-[var(--color-sand)]/40 transition-all duration-300">
               <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" className="text-[var(--color-sand)]/90"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
             </a>
           </div>
