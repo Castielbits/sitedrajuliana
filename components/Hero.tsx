@@ -181,7 +181,7 @@ export default function Hero() {
 
         {/* DIREITA: foto */}
         <div className="relative w-1/2 flex items-end justify-start pointer-events-none select-none">
-          <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }} className="relative w-full h-[88vh] mt-auto">
+          <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }} className="relative w-full h-[82vh] mt-auto mb-0 pt-16">
             <AnimatePresence mode="wait">
               <motion.div key={currentPhoto} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 1.2, ease: "easeInOut" }} className="absolute inset-0">
                 <Image src={draPhotos[currentPhoto]} alt="Dra. Juliana Torres" fill priority quality={100} className="object-contain object-bottom" sizes="50vw"
