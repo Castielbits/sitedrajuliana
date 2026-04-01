@@ -41,7 +41,7 @@ export default function ServicesSticky() {
             </h2>
             
             <a 
-              href="https://wa.me/5531986877763" 
+              href="https://wa.me/553198687763" 
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#3c787e] text-white px-8 py-4 font-sans text-xs font-bold uppercase tracking-[0.15em] hover:bg-[#1e5258] shadow-md hover:shadow-[0_8px_20px_rgba(30,82,88,0.3)] transition-all duration-300 rounded-sm"

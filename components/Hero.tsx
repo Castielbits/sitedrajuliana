@@ -131,7 +131,7 @@ export default function Hero() {
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 1.35 }} className="relative inline-block">
             <motion.div animate={{ scale: [1, 1.14], opacity: [0.45, 0] }} transition={{ duration: 2.5, repeat: Infinity, ease: "easeOut" }} className="absolute inset-0 pointer-events-none rounded-sm" style={{ backgroundColor: "#c9a96e" }} />
-            <motion.a href="#contact" whileTap={{ scale: 0.97 }} className="relative flex items-center justify-center px-8 py-3 font-sans text-xs tracking-[0.2em] uppercase font-bold shadow-lg" style={{ backgroundColor: "#c9a96e", color: "#1c2a10", borderRadius: "4px" }}>
+            <motion.a href="https://wa.me/553198687763" whileTap={{ scale: 0.97 }} className="relative flex items-center justify-center px-8 py-3 font-sans text-xs tracking-[0.2em] uppercase font-bold shadow-lg" style={{ backgroundColor: "#c9a96e", color: "#1c2a10", borderRadius: "4px" }}>
               Agendar avaliação
             </motion.a>
           </motion.div>
@@ -170,7 +170,7 @@ export default function Hero() {
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 1.55 }} className="relative inline-block mb-8">
             <motion.div animate={{ scale: [1, 1.14], opacity: [0.45, 0] }} transition={{ duration: 2.5, repeat: Infinity, ease: "easeOut" }} className="absolute inset-0 pointer-events-none rounded-sm" style={{ backgroundColor: "#c9a96e" }} />
-            <motion.a href="#contact" whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} className="relative flex items-center justify-center px-10 py-[11px] font-sans text-xs tracking-[0.2em] uppercase font-bold shadow-lg" style={{ backgroundColor: "#c9a96e", color: "#1c2a10", borderRadius: "4px" }}>
+            <motion.a href="https://wa.me/553198687763" whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} className="relative flex items-center justify-center px-10 py-[11px] font-sans text-xs tracking-[0.2em] uppercase font-bold shadow-lg" style={{ backgroundColor: "#c9a96e", color: "#1c2a10", borderRadius: "4px" }}>
               Agendar avaliação
             </motion.a>
           </motion.div>

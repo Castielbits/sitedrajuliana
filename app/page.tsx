@@ -52,7 +52,7 @@ export default function Home() {
               Agende uma avaliação e vamos descobrir juntos a causa raiz da sua dor.
             </p>
             <a
-              href="https://wa.me/5531986877763"
+              href="https://wa.me/553198687763"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-8 py-4 font-sans text-base font-medium transition-transform hover:scale-105"
