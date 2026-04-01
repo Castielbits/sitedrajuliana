@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function ServicesSticky() {
   const cards = [
     {
-      title: "Terapia Manual e TDM",
+      title: "Terapia Manual em DTM (padrão ouro)",
       desc: "Abordagem especializada para restaurar a função e aliviar dores, com foco na avaliação biomecânica integral do seu corpo.",
       image: "/servicos/terapiamanualetdm.png"
     },

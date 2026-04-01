@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 
-const draPhotos = ["/pngdra.png", "/drapng2.png"];
+const draPhotos = ["/drapng2.png"];
 
 const heroTexts = [
   "Trabalhar na área da saúde é diferente de atuar no comércio. É uma oportunidade de impactar profundamente a vida de uma pessoa, uma vez que a dor, o sofrimento e o desconforto abrem uma porta no corpo dela.",
@@ -120,7 +120,7 @@ export default function Hero() {
           </motion.div>
           <motion.div initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ duration: 0.9, delay: 1.0 }} className="my-4 h-px w-16 origin-left" style={{ backgroundColor: "rgba(201,169,110,0.6)" }} />
           <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.7, delay: 1.1 }} className="font-sans font-bold text-xl leading-snug uppercase mb-4" style={{ color: "rgba(245,242,237,0.95)" }}>
-            Harmonia. Saúde.<br />Beleza. Orofacial.
+            Saúde, Harmonia,<br />Bem-Estar Global.
           </motion.h2>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 1.2 }} className="flex flex-wrap gap-2 mb-5">
             {["Mestre em Ciências da Saúde", "Doutoranda em Neurociências · UFMG"].map((cred) => (
@@ -152,7 +152,7 @@ export default function Hero() {
           </motion.div>
           <motion.div initial={{ scaleX: 0 }} animate={{ scaleX: 1 }} transition={{ duration: 0.9, delay: 1.0, ease: "easeOut" }} className="my-5 h-px w-20 origin-left" style={{ backgroundColor: "rgba(201,169,110,0.6)" }} />
           <motion.h2 initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 1.1 }} className="font-sans font-bold text-3xl lg:text-[2.2rem] leading-snug uppercase mb-4" style={{ color: "rgba(245,242,237,0.95)" }}>
-            Harmonia. Saúde.<br />Beleza. Orofacial.
+            Saúde, Harmonia,<br />Bem-Estar Global.
           </motion.h2>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 1.25 }} className="flex flex-wrap gap-2 mb-6">
             {["Mestre em Ciências da Saúde", "Doutoranda em Neurociências · UFMG"].map((cred) => (
