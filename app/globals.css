@@ -93,10 +93,10 @@ html.lenis {
   }
 }
 
-/* ── Smartwatch / telas < 320px ──────────────────────────── */
-@media (max-width: 320px) {
+/* ── Smartwatch / telas < 240px ──────────────────────────── */
+@media (max-width: 240px) {
   html {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   body {
@@ -106,29 +106,49 @@ html.lenis {
   * {
     max-width: 100% !important;
     word-break: break-word;
+    box-sizing: border-box !important;
   }
 
-  /* Esconde elementos desnecessários em telas minúsculas */
+  /* Esconde elementos que não fazem sentido em telas minúsculas */
   video,
   .hide-on-watch {
     display: none !important;
   }
 
-  /* Padding mínimo em todas as seções */
-  section, footer, header, nav {
-    padding-left: 8px !important;
-    padding-right: 8px !important;
+  /* Padding mínimo */
+  section, footer, nav {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
   }
 
-  /* Forçar imagens a não transbordar */
+  /* Navbar compacta */
+  nav .max-w-6xl {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    height: 44px !important;
+  }
+
+  /* Esconde texto do logo na navbar, mantém só o ícone */
+  nav .flex-col {
+    display: none !important;
+  }
+
+  /* Imagens não transbordam */
   img {
     max-width: 100% !important;
     height: auto !important;
   }
 
-  /* Botões legíveis */
-  a, button {
-    font-size: 10px !important;
-    padding: 6px 10px !important;
+  /* Botão WhatsApp flutuante menor */
+  .fixed.bottom-6.right-6 {
+    width: 36px !important;
+    height: 36px !important;
+    bottom: 8px !important;
+    right: 8px !important;
+  }
+
+  .fixed.bottom-6.right-6 svg {
+    width: 18px !important;
+    height: 18px !important;
   }
 }

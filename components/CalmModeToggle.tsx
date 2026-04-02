@@ -33,7 +33,7 @@ export default function CalmModeToggle() {
         whileTap={{ scale: 0.96 }}
         aria-label={calmMode ? "Desativar modo calmo" : "Ativar modo calmo"}
         title={calmMode ? "Desativar Modo Calmo" : "Ativar Modo Calmo"}
-        className="fixed bottom-24 right-6 z-50 flex items-center justify-center w-12 h-12 rounded-full shadow-lg text-white transition-colors duration-300"
+        className="hide-on-watch fixed bottom-24 right-6 z-50 flex items-center justify-center w-12 h-12 rounded-full shadow-lg text-white transition-colors duration-300"
         style={{
           backgroundColor: calmMode
             ? "var(--color-sage)"
