@@ -92,3 +92,43 @@ html.lenis {
     columns: 1;
   }
 }
+
+/* ── Smartwatch / telas < 320px ──────────────────────────── */
+@media (max-width: 320px) {
+  html {
+    font-size: 12px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  * {
+    max-width: 100% !important;
+    word-break: break-word;
+  }
+
+  /* Esconde elementos desnecessários em telas minúsculas */
+  video,
+  .hide-on-watch {
+    display: none !important;
+  }
+
+  /* Padding mínimo em todas as seções */
+  section, footer, header, nav {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  /* Forçar imagens a não transbordar */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Botões legíveis */
+  a, button {
+    font-size: 10px !important;
+    padding: 6px 10px !important;
+  }
+}
